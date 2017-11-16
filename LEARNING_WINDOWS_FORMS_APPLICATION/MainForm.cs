@@ -13,7 +13,18 @@
 
 		private void titleTimer_Tick(object sender, System.EventArgs e)
 		{
-			if (titleLabel.Text == "WELCOME TO MY CLASS")
+			//if (titleLabel.Text == "WELCOME TO MY CLASS")
+			//{
+			//	titleLabel.Text = "I AM DARIUSH TASDIGHI";
+			//	titleLabel.ForeColor = System.Drawing.Color.Blue;
+			//}
+			//else
+			//{
+			//	titleLabel.Text = "WELCOME TO MY CLASS";
+			//	titleLabel.ForeColor = System.Drawing.Color.Black;
+			//}
+
+			if (string.Compare(titleLabel.Text, "WELCOME TO MY CLASS", ignoreCase: true) == 0)
 			{
 				titleLabel.Text = "I AM DARIUSH TASDIGHI";
 				titleLabel.ForeColor = System.Drawing.Color.Blue;
