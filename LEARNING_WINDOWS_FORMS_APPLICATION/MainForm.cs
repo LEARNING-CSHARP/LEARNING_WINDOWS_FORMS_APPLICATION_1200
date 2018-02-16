@@ -24,6 +24,7 @@
 			//	titleLabel.ForeColor = System.Drawing.Color.Black;
 			//}
 
+			// می‌کنیم یعنی بزرگ و کوچکی حروف مهم نیست true را ignoreCase وقتی
 			if (string.Compare(titleLabel.Text, "WELCOME TO MY CLASS", ignoreCase: true) == 0)
 			{
 				titleLabel.Text = "I AM DARIUSH TASDIGHI";
