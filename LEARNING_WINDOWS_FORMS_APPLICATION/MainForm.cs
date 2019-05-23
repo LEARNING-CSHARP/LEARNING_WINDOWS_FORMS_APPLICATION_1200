@@ -11,7 +11,7 @@
 		{
 		}
 
-		private void titleTimer_Tick(object sender, System.EventArgs e)
+		private void TitleTimer_Tick(object sender, System.EventArgs e)
 		{
 			//if (titleLabel.Text == "WELCOME TO MY CLASS")
 			//{
